@@ -11,8 +11,8 @@ using namespace std;
 
 double h(const double x, const double y)
 {
-    double S = (x * y / (1 + x * x * y * y));
-    return S;
+    return x * y / (1 + x * x * y * y);
+    
 }
 
 int main()
